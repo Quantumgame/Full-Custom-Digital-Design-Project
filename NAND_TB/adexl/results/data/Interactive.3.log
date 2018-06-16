@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Oct  3 14:29:56 2017 
+Best design point: 1
+Design specs: 
+	NAND_Transient	corner	Nominal - 
+Design parameters: 
+	VDD		1.8
+	Period		5n
+	Tsim		20n
+
+Interactive.3
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Tue Oct  3 14:30:00 2017 

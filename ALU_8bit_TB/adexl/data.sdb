@@ -1,0 +1,1661 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>EDATP:ALU_8bit_TB:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>ALU_8bit_TB</value>
+					</option>
+					<option>lib
+						<value>EDATP</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>EDATP:ALU_8bit_TB:1_active</value>
+					</option>
+				</tooloptions>
+				<outputs>
+					<output>B&lt;0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+						<evalType>point</evalType>
+					</output>
+					<output>Delay_R
+						<evalType>point</evalType>
+					</output>
+					<output>Delay_F
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<origoptions>
+					<option>cell
+						<value>ALU_8bit_TB</value>
+					</option>
+					<option>lib
+						<value>EDATP</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>VDD
+				<value>1.8</value>
+				<dependentTests>
+					<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Tp
+				<value>5n</value>
+				<dependentTests>
+					<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>a
+				<value>4</value>
+				<dependentTests>
+					<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W
+				<value>440n</value>
+				<dependentTests>
+					<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>b
+				<value>2</value>
+				<dependentTests>
+					<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>c
+				<value>4</value>
+				<dependentTests>
+					<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>d
+				<value>2</value>
+				<dependentTests>
+					<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry>Interactive.169
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.169</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 10:55:44 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.169.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.169.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_105544395</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.169</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.169</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.169.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.169.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.170
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.170</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 13:36:59 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.170.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.170.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_133659421</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/.tmpADEDir_edabd6/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.170</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.170</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.170.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.170.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.171
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.171</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 16:34:17 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.171.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.171.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_163418004</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/.tmpADEDir_edabd6/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.171</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.171</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.171.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.171.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.172
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.172</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 16:44:46 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.172.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.172.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_164446980</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.172</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.172</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.172.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.172.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.173
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.173</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 23:24:44 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.173.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.173.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_232444363</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.173</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.173</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.173.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.173.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.174
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.174</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 23:26:01 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.174.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.174.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_232602097</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.174</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.174</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.174.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.174.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.175
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.175</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 23:27:04 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.175.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.175.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_232705016</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.175</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.175</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.175.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.175.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.176
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.176</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 23:31:10 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.176.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.176.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_233110766</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.176</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.176</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.176.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.176.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.177
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.177</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 23:32:39 2017</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.177.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.177.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_233239393</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.177</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.177</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.177.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.177.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.178
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>EDATP:ALU_8bit_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>EDATP:ALU_8bit_TB:1_none_Interactive.178</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>B&lt;0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/A") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/X") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 2 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>delay(?wf1 VT("/B&lt;0&gt;") ?value1 0.9 ?edge1 "falling" ?nth1 3 ?td1 0.0 ?wf2 VT("/Z&lt;0&gt;") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_R
+								<evalType>point</evalType>
+							</output>
+							<output>Delay_F
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>ALU_8bit_TB</value>
+							</option>
+							<option>lib
+								<value>EDATP</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDD
+						<value>1.8</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tp
+						<value>5n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>a
+						<value>4</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>440n</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>c
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>d
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">EDATP:ALU_8bit_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Oct 28 23:42:41 2017
+</timestamp>
+			<resultsname>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.178.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.178.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ieledasrv2.epfl.ch_edabd6_234241193</localpsfdir>
+			<psfdir>/home/edabd6/edabd2017_fullcust/CDS_VISO/cds/simulation/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.178</psfdir>
+			<simdir>$AXL_PROJECT_DIR/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.178</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/ALU_8bit_TB/adexl/results/data/Interactive.178.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.178.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Oct  1 14:05:06 2017 
+Best design point: 1
+Design specs: 
+	Transient	corner	Nominal - 
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		67.21p	Yes
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		202.1p	No
+Design parameters: 
+	Period		2n
+	VDD		1.8
+	Tsim		8n
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Sun Oct  1 14:05:09 2017 

@@ -1,0 +1,29 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Oct  1 14:27:09 2017 
+Best design point: 1
+Design specs: 
+	Transient	corner	FF - 
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		50.48p	Yes
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		246.4p	No
+	Transient	corner	SS - 
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		88.81p	Yes
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		429.6p	No
+	Transient	corner	FS - 
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		56.64p	Yes
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		362.8p	No
+	Transient	corner	SF - 
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "rising" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "falling" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		73.81p	Yes
+	delay(?wf1 VT("/IN") ?value1 0.9 ?edge1 "falling" ?nth1 1 ?td1 0.0 ?wf2 VT("/OUT") ?value2 0.9 ?edge2 "rising" ?nth2 1 ?td2 0.0 ?stop nil ?multiple nil)		276.4p	No
+	Transient	corner	Nominal - 
+Design parameters: 
+	Period		2n
+	VDD		1.8
+	Tsim		8n
+	sigma		3
+
+Interactive.4
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.4 completed. 
+Current time: Sun Oct  1 14:27:16 2017 

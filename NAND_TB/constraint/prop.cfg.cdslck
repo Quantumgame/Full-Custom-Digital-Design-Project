@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      edabd6
+HostName                       ieledasrv2.epfl.ch
+ProcessIdentifier              27710
+ProcessCreationTime_UTC        1507030797
+ProcessCreationTime_Readable   Tue Oct  3 13:39:57 2017 CEST
+AppIdentifier                  /softs/cadence/ic/6.1.6/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/edabd6/edabd2017_fullcust/CDS_VISO/EDATP/NAND_TB/constraint/prop.cfg
+TimeEditLocked                 Tue Oct  3 14:05:46 2017 CEST

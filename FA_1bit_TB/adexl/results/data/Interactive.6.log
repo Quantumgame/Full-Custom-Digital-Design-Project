@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Oct 12 23:20:27 2017 
+Best design point: 1
+Design specs: 
+	FA_1BIT	corner	Nominal - 
+Design parameters: 
+	Tp		10n
+	VDD		1.8
+	Tsim		100n
+
+Interactive.6
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.6 completed. 
+Current time: Thu Oct 12 23:20:30 2017 

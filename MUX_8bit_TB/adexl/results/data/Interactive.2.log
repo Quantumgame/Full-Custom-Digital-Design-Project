@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Oct 11 19:23:20 2017 
+Best design point: 1
+Design specs: 
+	EDATP:MUX_8bit_TB:1	corner	Nominal - 
+Design parameters: 
+	Tp		10n
+	VDD		1.8
+	Tsim		100n
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Wed Oct 11 19:23:23 2017 

@@ -1,0 +1,37 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus QRC Extraction Version 14.1.2-s148 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "GND"
+extract \
+	 -selection "all" \
+	 -type "c_only_decoupled"
+extraction_setup \
+	 -net_name_space "LAYOUT"
+input_db -type assura \
+	 -design_cell_name "MUX_2_1 layout EDATP" \
+	 -directory_name "/home/edabd6/edabd2017_fullcust/CDS_VISO/LVS" \
+	 -format "DFII" \
+	 -run_name "LVSrun"
+log_file \
+	 -file_name "/home/edabd6/edabd2017_fullcust/CDS_VISO/LVS/qrc.LVSrun.log"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "false" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/home/edabd6/edabd2017_fullcust/CDS_VISO/LVS" \
+	 -temporary_directory_name "LVSrun"
+process_technology \
+	 -technology_corner \
+		"LVS" \
+	 -technology_library_file "/home/edabd6/edabd2017_fullcust/CDS_VISO/assura_tech.lib" \
+	 -technology_name "UMC_18_CMOS"
+
+
